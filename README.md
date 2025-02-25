@@ -5,7 +5,8 @@
    - [Who Should Use GitHub Projects?](#13-who-should-use-github-projects)
 
 2. [Setting Up Your GitHub Project](#2-setting-up-your-github-project)
-
+   - [From the web](#21-from-the-web)
+   - [From VS code](#22-from-vs-code)
 3. [How GitHub Projects Work](#3-how-github-projects-work)
    - [Milestones](#31-milestones)
    - [Issues & Sub-issues](#32-issues--sub-issues)
@@ -71,8 +72,22 @@ A tool for organizing tasks, tracking issues, pull requests, milestones, and mor
 
 # **2. Setting Up Your GitHub Project**
 
+## **2.1 From the Web**
 - Go to the repository → Projects tab → New Project.  
 - Select a template (Kanban, Basic, Roadmap).
+
+## **2.2 From VS Code**
+Why we cannot do this from  VS code ??
+
+- Repository:
+A repository (or "repo") is a storage space for your project files and their version history. It can be hosted on platforms like GitHub.
+When you create a repository on GitHub, you create a container for your project.
+- Project:
+A project refers to the actual work you are doing, which includes code, documentation, and other assets.
+In GitHub, "project" can also refer to a feature for organizing tasks (like Kanban boards), but this is separate from the repository.
+- Linking:
+You can use git remote add origin <repository-url> to link your local Git repository to a remote GitHub repository.
+You cannot link a "project" directly because Git operates at the repository level. Your local project must first be a Git repository (initialized with git init) before you can link it to a remote repository.
 
 ---
 
