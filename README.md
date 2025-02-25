@@ -5,8 +5,6 @@
    - [Who Should Use GitHub Projects?](#13-who-should-use-github-projects)
 
 2. [Setting Up Your GitHub Project](#2-setting-up-your-github-project)
-   - [From the Web](#21-from-the-web)
-   - [From VSCode](#22-from-vscode)
 
 3. [How GitHub Projects Work](#3-how-github-projects-work)
    - [Milestones](#31-milestones)
@@ -73,15 +71,8 @@ A tool for organizing tasks, tracking issues, pull requests, milestones, and mor
 
 # **2. Setting Up Your GitHub Project**
 
-## **2.1. From the Web**
 - Go to the repository → Projects tab → New Project.  
 - Select a template (Kanban, Basic, Roadmap).
-
-
-## **2.2. From VSCode**
-- Open project in VSCode.  
-- Install GitHub extension.  
-- Use `GitHub: Create Project` command.
 
 ---
 
